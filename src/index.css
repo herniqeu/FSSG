@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --chart-1: 215 50% 23%;
+  --chart-2: 142 76% 36%;
+}

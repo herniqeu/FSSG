@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F5F2EA;
+  font-family: 'Lora', serif;
+}
+
+.writing-container {
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  padding-bottom: 6rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.writing-container::-webkit-scrollbar {
+  display: none;
+}
+
+.text-content {
+  transition: transform 0.3s ease-out;
+}
+
+.text-line {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 0.6;
+    transform: translateY(0);
+  }
+}
