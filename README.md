@@ -1,10 +1,13 @@
-# FSSG - Focus Study Session Generator
+# FSSG 
 
 <div align="center">
   <img src=".github/assets/FOCUS.png" alt="FOCUS page" width="800"/>
 </div>
 
 FSSG is a web application designed to help you focus and take notes during your study sessions, providing a distraction-free environment for your work and study sessions.
+
+## Live Demo
+Try it out: [FSSG](https://future-seems-so-good.com/notes)
 
 ## Tech Stack
 - React + TypeScript
